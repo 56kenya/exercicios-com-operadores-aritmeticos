@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace diego_santos___cb_3048179
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double diagonal;
+            double area;
+            double lado;
+
+            Console.Write("Insira o valor da diagonal do quadrado: ");
+            diagonal = double.Parse(Console.ReadLine());
+
+            lado = diagonal / Math.Sqrt(2);
+            area = lado * lado;
+
+            Console.Write("O valor da área do quadrado é equivalente a " + area);
+
+
+
+        }
+    }
+}
