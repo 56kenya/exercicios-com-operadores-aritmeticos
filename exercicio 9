@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio_9
+{
+    internal class exercicio_9
+    {
+        static void Main(string[] args)
+        {
+            double diametro;
+            double pi;
+            double r;
+            double area;
+
+            Console.WriteLine("Insira o valor do diâmetro do círculo: ");
+            diametro = double.Parse(Console.ReadLine());
+
+            pi = 3.1416;
+            r = diametro / 2;
+
+            area = pi * (r * r);
+            Console.WriteLine("O valor da área do círculo é equivalente a :" + area);
+           
+        }
+    }
+}
