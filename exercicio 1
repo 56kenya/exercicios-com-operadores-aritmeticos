@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio_1
+{
+    internal class exercicio_1
+    {
+        static void Main(string[] args)
+        {
+            int vbase;
+            int altura;
+            int area;
+
+            Console.Write("Insira o valor equivalente à base do retângulo: ");
+            vbase = int.Parse(Console.ReadLine());
+
+            Console.Write("Insira o valor equivalente à altura do retângulo: ");
+            altura = int.Parse(Console.ReadLine());
+
+            area = vbase * altura;
+            Console.Write("O valor da área do retângulo é igual a " + area);
+
+            
+        }
+    }
+}
