@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio_7
+{
+    internal class exercicio_7
+    {
+        static void Main(string[] args)
+        {
+            double milhas_maritmas;
+            double quantidade_milhas;
+            double quilometros;
+            double conversao;
+
+            Console.Write("Insira a quantidade de milhas marítmas a serem convertidas em quilômetros: ");
+            quantidade_milhas = double.Parse(Console.ReadLine());
+
+            milhas_maritmas = 1852;
+            quilometros = 1000;
+
+            conversao = quantidade_milhas * milhas_maritmas / quilometros;
+            Console.Write("O valor de milhas marítimas convertidas em quilômetros é equivalente a: " + conversao);
+        }
+    }
+}
