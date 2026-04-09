@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio_10
+{
+    internal class exercicio_10
+    {
+        static void Main(string[] args)
+        {
+            double dolar;
+            double real;
+
+            Console.WriteLine("Insira a quantidade de dólares a serem convertidos em reais: ");
+            dolar = double.Parse(Console.ReadLine());
+
+            real = 5.10 * dolar;
+            Console.WriteLine("O valor de dólares inserido convertido em reais é equivalente a: " + real);
+
+        }
+    }
+}
