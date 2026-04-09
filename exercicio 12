@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio_12
+{
+    internal class exercicio_12
+    {
+        static void Main(string[] args)
+        {
+            double produto_1;
+            double produto_2;
+            double produto_3;
+            double produto_4;
+            double produto_5;
+            double soma_produtos;
+            double valor_pago;
+            double valor_devolver;
+
+            Console.Write("Insira o valor do primeiro produto: ");
+            produto_1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Insira o valor do segundo produto: ");
+            produto_2 = double.Parse(Console.ReadLine());
+
+            Console.Write("Insira o valor do terceiro produto: ");
+            produto_3 = double.Parse(Console.ReadLine());
+
+            Console.Write("Insira o valor do quarto produto: ");
+            produto_4 = double.Parse(Console.ReadLine());
+
+            Console.Write("Insira o valor do quinto produto: ");
+            produto_5 = double.Parse(Console.ReadLine());
+
+            soma_produtos = produto_1 + produto_2 + produto_3 + produto_4 + produto_5;
+            Console.WriteLine("O valor total dos produtos é equivalente a: " + soma_produtos);
+
+            Console.Write("Insira o valor pago pelo cliente: ");
+            valor_pago = double.Parse(Console.ReadLine());
+
+            valor_devolver = valor_pago - soma_produtos;
+            Console.WriteLine("O valor a ser devolvido é igual a: " + valor_devolver);
+        }
+    }
+}
