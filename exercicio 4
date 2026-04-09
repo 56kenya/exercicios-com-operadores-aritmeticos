@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio_4
+{
+    internal class exercicio_4
+    {
+        static void Main(string[] args)
+        {
+            int vbase;
+            int altura;
+            int area;
+
+            Console.Write("Insira o valor da base do triângulo: ");
+            vbase = int.Parse(Console.ReadLine());
+
+            Console.Write("Insira o valor da altura do triângulo: ");
+            altura = int.Parse(Console.ReadLine());
+
+            area = vbase * altura / 2;
+            Console.Write("O valor da área do triângulo é equivalente a: " + area);
+        }
+    }
+}
