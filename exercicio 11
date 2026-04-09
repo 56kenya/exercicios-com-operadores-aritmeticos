@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio_11
+{
+    internal class exercicio_11
+    {
+        static void Main(string[] args)
+        {
+            double x;
+            double y;
+            string base_expoente;
+
+            Console.WriteLine("Insira o valor da base X");
+            x = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Insira o valor do expoente Y");
+            y = double.Parse(Console.ReadLine());
+
+            base_expoente = x + "^" + y;
+            Console.WriteLine("Elevando a base ao valor do expoente inserido, obtemos: " + base_expoente);
+        }
+    }
+}
