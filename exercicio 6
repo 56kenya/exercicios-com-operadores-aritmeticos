@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio_6
+{
+    internal class exercicio_6
+    {
+        static void Main(string[] args)
+        {
+            double valor1;
+            double valor2;
+            double media;
+
+            Console.Write("Insira o primeiro valor da média geométrica: ");
+            valor1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Insira o segundo valor da média geométrica: ");
+            valor2 = double.Parse(Console.ReadLine());
+
+            media = Math.Sqrt(valor1 * valor2);
+            Console.Write("O valor da sua média geométrica é equivalente a: " + media);
+
+        }
+    }
+}
