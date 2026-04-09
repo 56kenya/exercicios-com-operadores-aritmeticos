@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace exercicio_4
+namespace exercicio_5
 {
-    internal class exercicio_4
+    internal class exercicio_5
     {
         static void Main(string[] args)
         {
