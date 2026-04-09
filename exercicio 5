@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace exercicio_4
+{
+    internal class exercicio_4
+    {
+        static void Main(string[] args)
+        {
+            int valor1;
+            int valor2;
+            int valor3;
+            int valor4;
+            int media;
+
+            Console.Write("Insira o primeiro valor da média aritmética: ");
+            valor1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Insira o segundo valor da média aritmética: ");
+            valor2 = int.Parse(Console.ReadLine());
+
+            Console.Write("Insira o terceiro valor da média aritmética: ");
+            valor3 = int.Parse(Console.ReadLine());
+
+            Console.Write("Insira o quarto valor da média aritmética: ");
+            valor4 = int.Parse(Console.ReadLine());
+
+            media = (valor1 + valor2 + valor3 + valor4) / 2;
+            Console.Write("O valor da sua média aritmética é equivalente a: " + media);
+
+        }
+    }
+}
